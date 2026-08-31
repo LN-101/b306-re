@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>电子技术创新大本营 · B306 2026 招新简章 | 面向大一/大二本科生</title>
+  <meta name="description" content="电子技术创新大本营 · B306 2026年度招新：面向重庆邮电大学大一/大二本科学生。2026级计划招新12-15人，大二竞赛梯队补招3-6人。地点：南部校区综合实验楼B306。">
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        screens: {
+          'xs': '480px',
+          'sm': '640px',
+          'md': '768px',
+          'lg': '1024px',
+          'xl': '1280px',
+          '2xl': '1536px',
+        },
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-slate-50 text-slate-800 cyber-grid relative min-h-screen selection:bg-cyan-500 selection:text-white antialiased">
+
+  <!-- Top Ambient Glow -->
+  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 radial-gradient-glow pointer-events-none z-0"></div>
+  <div class="fixed top-1/4 right-0 w-96 h-96 radial-purple-glow pointer-events-none z-0"></div>
+
+  <!-- Navigation Bar (Clean Redesign: No group numbers in top bar, strictly single-line navigation) -->
+  <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-transparent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center space-x-2.5 sm:space-x-3 group flex-shrink-0 whitespace-nowrap">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl p-1 bg-slate-50 border border-slate-200 flex items-center justify-center shadow-sm group-hover:border-cyan-400 transition-all flex-shrink-0">
+          <img src="assets/images/logo.png" alt="B306 Logo" class="w-full h-full object-contain">
+        </div>
+        <div class="whitespace-nowrap">
+          <span class="text-base sm:text-lg lg:text-xl font-black tracking-wider text-slate-900 flex items-center gap-1.5 whitespace-nowrap">
+            电子技术创新大本营 <span class="text-xs px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-700 border border-cyan-500/20 font-mono font-semibold">B306</span>
+          </span>
+          <p class="text-[10px] text-slate-500 tracking-wider hidden sm:block whitespace-nowrap">B306 招新 · 电赛控制 · 算法掌控</p>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links (Strictly one single line with whitespace-nowrap) -->
+      <nav class="hidden lg:flex items-center space-x-1 xl:space-x-2 2xl:space-x-3 text-xs xl:text-sm font-medium text-slate-700 whitespace-nowrap flex-nowrap">
+        <a href="#about" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">实验室定位</a>
+        <a href="#environment" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">工位环境</a>
+        <a href="#projects" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">作品展示</a>
+        <a href="#honors" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">荣誉殿堂</a>
+        <a href="#career" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">毕业去向</a>
+        <a href="#requirements" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">招募要求</a>
+        <a href="#process" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">考核流程</a>
+        <a href="#faq" class="px-2.5 xl:px-3 py-2 rounded-lg text-slate-600 hover:text-cyan-600 hover:bg-slate-100 transition whitespace-nowrap font-medium">常见问答</a>
+      </nav>
+
+      <!-- Desktop Action CTA (Clean button, group numbers removed) -->
+      <div class="hidden lg:flex items-center space-x-3 whitespace-nowrap flex-shrink-0">
+        <a href="#contact" class="px-4 py-2 text-xs xl:text-sm font-semibold rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white shadow-md shadow-cyan-500/20 hover:shadow-cyan-500/35 hover:-translate-y-0.5 transition-all flex items-center gap-1.5 whitespace-nowrap">
+          <i class="fa-solid fa-paper-plane text-xs"></i>
+          <span>加入我们</span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button (< lg) -->
+      <div class="flex lg:hidden items-center space-x-2 whitespace-nowrap">
+        <a href="#contact" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-gradient-to-r from-blue-600 to-cyan-500 text-white shadow-sm whitespace-nowrap">
+          加入我们
+        </a>
+        <button id="mobile-menu-btn" aria-label="打开导航菜单" aria-expanded="false" class="p-2 rounded-lg bg-white text-slate-700 hover:text-slate-900 border border-slate-200 focus:outline-none shadow-sm flex items-center justify-center">
+          <i class="fa-solid fa-bars text-base"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white/95 backdrop-blur-xl border-b border-slate-200 px-4 pt-3 pb-6 space-y-1.5 shadow-lg max-h-[calc(100vh-4.5rem)] overflow-y-auto">
+      <a href="#about" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">实验室定位</a>
+      <a href="#environment" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">工位环境</a>
+      <a href="#projects" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">作品展示</a>
+      <a href="#honors" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">荣誉殿堂</a>
+      <a href="#career" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">毕业去向</a>
+      <a href="#requirements" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">招募要求</a>
+      <a href="#process" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">考核流程</a>
+      <a href="#faq" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-cyan-600 font-medium text-sm whitespace-nowrap">常见问答</a>
+      
+      <div class="pt-3 border-t border-slate-200 flex flex-col gap-2">
+        <button class="btn-copy-group w-full py-2.5 text-xs font-mono rounded-lg bg-slate-100 text-slate-800 border border-slate-200 flex items-center justify-center gap-2 font-medium" data-group-number="1108883297">
+          <i class="fa-regular fa-copy text-cyan-600"></i>
+          <span>复制大一招新群号: 1108883297</span>
+        </button>
+        <button class="btn-copy-group w-full py-2.5 text-xs font-mono rounded-lg bg-slate-100 text-slate-800 border border-slate-200 flex items-center justify-center gap-2 font-medium" data-group-number="736420091">
+          <i class="fa-regular fa-copy text-blue-600"></i>
+          <span>复制大二招新群号: 736420091</span>
+        </button>
+        <a href="#contact" class="mobile-nav-link w-full py-2.5 text-xs font-semibold rounded-lg bg-gradient-to-r from-blue-600 to-cyan-500 text-white flex items-center justify-center gap-2 shadow-sm">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>查看招新入口与二维码</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-16 sm:pt-20">
+
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="relative min-h-[85vh] sm:min-h-[90vh] flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <!-- Interactive Signal Canvas -->
+      <canvas id="hero-canvas"></canvas>
+
+      <div class="max-w-5xl mx-auto text-center relative z-10 flex flex-col items-center w-full">
+        
+        <!-- Status Pill -->
+        <div class="inline-flex flex-col sm:flex-row items-center justify-center px-3.5 sm:px-4 py-1.5 rounded-2xl sm:rounded-full bg-cyan-50 mb-5 sm:mb-6 border border-cyan-200 shadow-sm max-w-full text-center gap-1 sm:gap-2">
+          <div class="inline-flex items-center space-x-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 pulse-dot flex-shrink-0"></span>
+            <span class="text-xs sm:text-sm font-medium text-cyan-800 tracking-wide whitespace-nowrap">电子技术创新大本营 · B306 2026 招新</span>
+          </div>
+          <span class="hidden sm:inline text-cyan-500 font-medium text-xs sm:text-sm">·</span>
+          <span class="text-xs sm:text-sm font-medium text-cyan-800 tracking-wide text-center">面向大一/大二本科生</span>
+        </div>
+
+        <!-- Main Logo Glowing Showcase -->
+        <div class="relative mb-5 sm:mb-6 group cursor-pointer" data-preview="assets/images/logo.png" data-caption="B306 实验室官方徽标">
+          <div class="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-3xl p-2.5 sm:p-3 bg-white border border-slate-200 shadow-xl group-hover:scale-105 group-hover:border-cyan-400 transition-all duration-300 flex items-center justify-center">
+            <img src="assets/images/logo.png" alt="B306 Logo" class="w-full h-full object-contain drop-shadow-sm">
+          </div>
+          <div class="absolute -bottom-2 -right-2 bg-blue-600 text-white text-[10px] px-2 py-0.5 rounded-md font-mono border border-blue-400 shadow">
+            EST. B306
+          </div>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-slate-900 mb-4 sm:mb-6 leading-tight text-balance">
+          用代码驱动电机<br>
+          <span class="gradient-text-blue">以算法掌控全局</span>
+        </h1>
+
+        <!-- Slogan & Intro -->
+        <p class="max-w-4xl mx-auto text-sm sm:text-lg md:text-xl text-slate-700 font-light leading-relaxed mb-8 sm:mb-10 text-balance px-2">
+          面向嵌入式开发、FPGA 开发与电子设计竞赛培养。<br class="hidden sm:inline">
+          以控制算法为灵魂，以嵌入式系统为骨架 —— 软硬结合，开放协作。
+        </p>
+
+        <!-- CTA Buttons (Responsive Flex-Wrap) -->
+        <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 w-full max-w-4xl mb-12 sm:mb-14">
+          <!-- Mobile Direct Join QQ / Web Link -->
+          <a href="#contact" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-400 hover:from-blue-500 hover:to-cyan-400 text-slate-950 font-bold text-sm sm:text-base shadow-xl shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
+            <i class="fa-brands fa-qq text-lg text-slate-950"></i>
+            <span>查看招新入口</span>
+          </a>
+
+          <!-- Copy Freshman Group Number Button -->
+          <button class="btn-copy-group w-full sm:w-auto px-4 sm:px-5 py-3 sm:py-4 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs sm:text-sm border border-slate-200 hover:border-cyan-500/40 hover:-translate-y-0.5 shadow-sm transition-all flex items-center justify-center gap-2 font-mono" data-group-number="1108883297">
+            <i class="fa-regular fa-copy text-cyan-600"></i>
+            <span>大一招新群: 1108883297</span>
+          </button>
+
+          <!-- Copy Sophomore Group Number Button -->
+          <button class="btn-copy-group w-full sm:w-auto px-4 sm:px-5 py-3 sm:py-4 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs sm:text-sm border border-slate-200 hover:border-blue-500/40 hover:-translate-y-0.5 shadow-sm transition-all flex items-center justify-center gap-2 font-mono" data-group-number="736420091">
+            <i class="fa-regular fa-copy text-blue-600"></i>
+            <span>大二招新群: 736420091</span>
+          </button>
+
+          <!-- Explore Process -->
+          <a href="#process" class="w-full sm:w-auto px-5 py-3 sm:py-4 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs sm:text-sm border border-slate-200 hover:border-slate-300 shadow-sm transition flex items-center justify-center gap-2">
+            <span>了解考核流程</span>
+            <i class="fa-solid fa-arrow-down text-xs text-slate-500"></i>
+          </a>
+        </div>
+
+        <!-- Quick Highlight Badges (Refined: Zero truncation, balanced length & visual harmony) -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3.5 w-full max-w-4xl pt-6 sm:pt-8 border-t border-slate-200/80 text-left">
+          
+          <!-- Badge 1: 荣誉战绩 -->
+          <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 flex items-center space-x-2.5 sm:space-x-3 shadow-sm hover:border-amber-300 hover:shadow transition-all group">
+            <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-amber-500/10 text-amber-500 flex items-center justify-center text-sm sm:text-base flex-shrink-0 group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[11px] sm:text-xs text-slate-500 font-normal whitespace-nowrap">竞赛硬核战绩</p>
+              <p class="text-xs sm:text-sm font-bold text-slate-900 whitespace-nowrap">全国一等奖荣誉</p>
+            </div>
+          </div>
+
+          <!-- Badge 2: 工位环境 -->
+          <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 flex items-center space-x-2.5 sm:space-x-3 shadow-sm hover:border-blue-300 hover:shadow transition-all group">
+            <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-blue-500/10 text-blue-500 flex items-center justify-center text-sm sm:text-base flex-shrink-0 group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-desktop"></i>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[11px] sm:text-xs text-slate-500 font-normal whitespace-nowrap">实验与备赛空间</p>
+              <p class="text-xs sm:text-sm font-bold text-slate-900 whitespace-nowrap">独立专属工位</p>
+            </div>
+          </div>
+
+          <!-- Badge 3: 招新规模 (大一 12~15人 / 大二 3~6人) -->
+          <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 flex items-center space-x-2.5 sm:space-x-3 shadow-sm hover:border-cyan-300 hover:shadow transition-all group" title="大一培养入口 12~15人，大二竞赛梯队补招 3~6人">
+            <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-cyan-500/10 text-cyan-500 flex items-center justify-center text-sm sm:text-base flex-shrink-0 group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[11px] sm:text-xs text-slate-500 font-normal whitespace-nowrap">大一 / 大二招新</p>
+              <p class="text-xs sm:text-sm font-bold text-slate-900 whitespace-nowrap">12~15人 · 3~6人</p>
+            </div>
+          </div>
+
+          <!-- Badge 4: 常驻基地 -->
+          <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 flex items-center space-x-2.5 sm:space-x-3 shadow-sm hover:border-emerald-300 hover:shadow transition-all group">
+            <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-sm sm:text-base flex-shrink-0 group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[11px] sm:text-xs text-slate-500 font-normal whitespace-nowrap">实验室常驻基地</p>
+              <p class="text-xs sm:text-sm font-bold text-slate-900 whitespace-nowrap">综合实验楼B306</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         SECTION 1: LAB OVERVIEW & CULTURE
+         ========================================================================== -->
+    <section id="about" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-600 text-xs font-mono mb-3">
+          <i class="fa-solid fa-cube"></i>
+          <span>ABOUT & CULTURE</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          实验室定位与核心文化
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          电子技术创新大本营 B306 实验室位于重庆邮电大学综合实验楼 B 栋 306 室，遵循学校“修德、博学、求实、创新”校训，引导和组织学生参加各级科技竞赛，培养实践能力、创新思维与协作精神。
+        </p>
+      </div>
+
+      <!-- 4 Pillars Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        
+        <!-- Pillar 1: 包容 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden group flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/10 border border-blue-500/30 flex items-center justify-center text-blue-500 text-lg sm:text-xl mb-4 sm:mb-5 group-hover:scale-110 group-hover:border-blue-400 transition-all">
+              <i class="fa-solid fa-hands-holding-circle"></i>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-lg sm:text-xl font-bold text-slate-900">包容</h3>
+              <span class="text-xs font-mono text-slate-500">Inclusive</span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              尊重每位成员的技术路线与探索方向。人人平等交流，崇尚用严谨的技术与代码逻辑说话，拒绝等级壁垒。
+            </p>
+          </div>
+          <div class="mt-4 pt-3 sm:pt-4 border-t border-slate-100 flex items-center text-xs text-blue-600 font-medium">
+            <i class="fa-solid fa-check text-xs mr-1.5"></i> 平等交流 · 技术至上
+          </div>
+        </div>
+
+        <!-- Pillar 2: 开源 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden group flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-teal-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-500 text-lg sm:text-xl mb-4 sm:mb-5 group-hover:scale-110 group-hover:border-cyan-400 transition-all">
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-lg sm:text-xl font-bold text-slate-900">开源</h3>
+              <span class="text-xs font-mono text-slate-500">Open Source</span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              沉淀实验室多年历届电赛代码库与电控调参经验。源码、PCB工程与技术文档全员共享，拒绝信息孤岛与闭门造车。
+            </p>
+          </div>
+          <div class="mt-4 pt-3 sm:pt-4 border-t border-slate-100 flex items-center text-xs text-cyan-600 font-medium">
+            <i class="fa-solid fa-check text-xs mr-1.5"></i> 代码库共享 · 经验薪火相传
+          </div>
+        </div>
+
+        <!-- Pillar 3: 自驱与规范 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden group flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/10 border border-purple-500/30 flex items-center justify-center text-purple-500 text-lg sm:text-xl mb-4 sm:mb-5 group-hover:scale-110 group-hover:border-purple-400 transition-all">
+              <i class="fa-solid fa-compass-drafting"></i>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-lg sm:text-xl font-bold text-slate-900">自驱与规范</h3>
+              <span class="text-xs font-mono text-slate-500">Disciplined</span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              鼓励自驱式科研与备赛，同时围绕阶段任务、到场投入和项目交付进行考核。实验室开放常用仪器与基础物料，支持开发硬核项目。
+            </p>
+          </div>
+          <div class="mt-4 pt-3 sm:pt-4 border-t border-slate-100 flex items-center text-xs text-purple-600 font-medium">
+            <i class="fa-solid fa-check text-xs mr-1.5"></i> 自驱训练 · 阶段考核
+          </div>
+        </div>
+
+        <!-- Pillar 4: 偏向软件 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden group flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-600 text-lg sm:text-xl mb-4 sm:mb-5 group-hover:scale-110 group-hover:border-emerald-500 transition-all">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-lg sm:text-xl font-bold text-slate-900">偏向软件</h3>
+              <span class="text-xs font-mono text-slate-500">Software-Oriented</span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              不仅限于硬件焊接画板，更注重现代控制理论、运动控制算法、状态机设计、RTOS 多任务架构及软件工程规范。
+            </p>
+          </div>
+          <div class="mt-4 pt-3 sm:pt-4 border-t border-slate-100 flex items-center text-xs text-emerald-600 font-medium">
+            <i class="fa-solid fa-check text-xs mr-1.5"></i> 算法驱动 · 核心胜负手
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Training Directions Sub-Section -->
+    <section class="-mt-4 sm:-mt-6 pb-8 sm:pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="glass-card p-5 sm:p-7 lg:p-8 rounded-2xl border border-cyan-200 bg-gradient-to-br from-white via-cyan-50/40 to-blue-50/30 shadow-md">
+        <div class="flex flex-col lg:flex-row gap-6 lg:items-center lg:justify-between">
+          <div class="max-w-3xl">
+            <span class="text-xs font-mono text-cyan-800 px-2.5 py-1 rounded bg-cyan-100 border border-cyan-200 font-semibold">TRAINING DIRECTIONS</span>
+            <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mt-3 mb-2.5">培养方向：电子设计从动手实践开始</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              实验室面向嵌入式开发和 FPGA 开发，主要学习各类单片机操作、STM32、ESP32、Linux 等内容；同时覆盖简单电路设计、机械结构搭建、电路板焊接、3D 建模，以及语音识别、OpenMV、云台、K230、编码电机、步进电机等传感器与执行器应用。
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-2.5 sm:gap-3 w-full lg:w-auto text-xs font-mono text-slate-700 flex-shrink-0">
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200"><span class="block text-cyan-700 font-bold mb-0.5">Embedded</span><span>STM32 / ESP32 / Linux</span></div>
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200"><span class="block text-indigo-700 font-bold mb-0.5">FPGA</span><span>可重构机器人设计</span></div>
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200"><span class="block text-emerald-700 font-bold mb-0.5">Hardware</span><span>电路 / 焊接 / 结构</span></div>
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-200"><span class="block text-amber-700 font-bold mb-0.5">Sensors</span><span>OpenMV / K230 / Motor</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 2: HARDWARE ENVIRONMENT & WORKBENCH SHOWCASE
+         ========================================================================== -->
+    <section id="environment" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-cyan-50 border border-cyan-200 text-cyan-700 text-xs font-mono mb-3">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <span>LAB WORKSPACE & FACILITIES</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          硬件环境与硬核工位配置
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          完备的仪器设备、舒适的备赛空间，以及常用器件与基础耗材支持，为你提供扎实的训练保障。
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+        
+        <!-- Left: Real Lab Workbench Photo Interactive Card -->
+        <div class="lg:col-span-7">
+          <div class="glass-card-static rounded-2xl p-2.5 sm:p-4 border border-slate-200 relative group bg-white shadow-sm">
+            
+            <div class="relative overflow-hidden rounded-xl bg-slate-100 cursor-pointer" data-preview="assets/images/workbench.jpg" data-caption="B306 实验室 18号流动工位实拍 · 配备洞洞板收纳、智能控制小车与全套元器件盒">
+              <img src="assets/images/workbench.jpg" alt="B306 实验室工位实拍" class="w-full h-auto object-cover rounded-xl transition-transform duration-500 group-hover:scale-102">
+              
+              <!-- Ambient overlay banner -->
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none"></div>
+
+              <!-- Hotspot Floating Badges -->
+              <div class="absolute top-3 left-3 sm:top-4 sm:left-4 spot-tag px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg text-[11px] sm:text-xs font-mono text-cyan-800 font-semibold flex items-center gap-1.5 shadow-sm">
+                <i class="fa-solid fa-tag text-cyan-600"></i>
+                <span>#18 实验室工位实拍</span>
+              </div>
+
+              <div class="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex flex-col xs:flex-row items-start xs:items-center justify-between text-xs text-slate-700 bg-white/95 backdrop-blur-md px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg border border-slate-200 shadow-sm gap-1">
+                <div class="flex items-center gap-1.5 sm:gap-2">
+                  <i class="fa-solid fa-magnifying-glass-plus text-cyan-600"></i>
+                  <span class="text-[11px] sm:text-xs font-medium">点击查看高清工位实拍大图</span>
+                </div>
+                <span class="font-mono text-slate-500 text-[10px] sm:text-[11px]">B306 REAL WORKBENCH</span>
+              </div>
+            </div>
+
+            <!-- Mini Caption -->
+            <p class="text-[11px] sm:text-xs text-slate-500 mt-2.5 sm:mt-3 px-1 flex items-center justify-between">
+              <span>实拍展示：实验工位洞洞板、主控板、电控智能小车调试台与零件盒</span>
+              <span class="text-cyan-700 font-mono font-semibold">100% 真实环境</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: Environment Details List -->
+        <div class="lg:col-span-5 space-y-3 sm:space-y-4">
+          
+          <!-- Item 1: 独立专属工位 -->
+          <div class="glass-card p-4 sm:p-5 rounded-xl flex items-start space-x-3.5 sm:space-x-4">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <i class="fa-solid fa-chair text-base sm:text-lg"></i>
+            </div>
+            <div>
+              <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">独立专属工位</h4>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                告别期末与备赛期图书馆“占座地狱”。宽敞工位配备多孔洞洞板、舒适人体工学座椅，沉浸式编码调试。
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: 专注研发空间 -->
+          <div class="glass-card p-4 sm:p-5 rounded-xl flex items-start space-x-3.5 sm:space-x-4">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-cyan-50 border border-cyan-200 text-cyan-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <i class="fa-solid fa-wind text-base sm:text-lg"></i>
+            </div>
+            <div>
+              <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">专注研发空间</h4>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                为日常算法开发、课题攻关与四天三夜电赛高强度备赛提供全天候专注保障。
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: 专业级实验仪器 -->
+          <div class="glass-card p-4 sm:p-5 rounded-xl flex items-start space-x-3.5 sm:space-x-4">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <i class="fa-solid fa-wave-square text-base sm:text-lg"></i>
+            </div>
+            <div>
+              <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">专业级实验与测试仪器</h4>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                高精度数字示波器、多路直流稳压电源、任意函数波形发生器、逻辑分析仪、恒温高精度焊台及全套调试工具。
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: 丰富耗材与套件库 -->
+          <div class="glass-card p-4 sm:p-5 rounded-xl flex items-start space-x-3.5 sm:space-x-4">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <i class="fa-solid fa-boxes-stacked text-base sm:text-lg"></i>
+            </div>
+            <div>
+              <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">常用主控与驱动传感器器件</h4>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                覆盖 STM32 / TI / ESP32 / FPGA 主控，无刷/步进/伺服电机与驱动，以及陀螺仪、激光雷达、OpenMV/K230 视觉模块等常用类型，具体以实验室现有库存和项目需求为准。
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         SECTION 3: PROJECT SHOWCASE
+         ========================================================================== -->
+    <section id="projects" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="text-center max-w-4xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-mono mb-3">
+          <i class="fa-solid fa-microchip"></i>
+          <span>PROJECT SHOWCASE</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          作品展示 · 从入门练习到竞赛实战
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          从单片机小项目、传感器应用，到电机控制与移动平台调试，实验室鼓励同学在真实项目中积累工程经验。
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+        <!-- Project 1 -->
+        <article class="glass-card p-3 sm:p-3.5 rounded-2xl border border-slate-200 flex flex-col justify-between shadow-sm bg-white hover:border-cyan-400 hover:shadow-md transition-all h-full">
+          <div>
+            <div class="aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-100 cursor-pointer relative group" data-preview="assets/images/foc-drive.png" data-caption="FOC 驱动实物图">
+              <img src="assets/images/foc-drive.png" alt="FOC 驱动实物图" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="pt-3 sm:pt-4 px-1 pb-1">
+              <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5">FOC 驱动</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">以 STM32F405 为核心，面向 BLDC/PMSM 的力矩、速度与位置闭环控制，适用于底盘、云台与精密执行器。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="glass-card p-3 sm:p-3.5 rounded-2xl border border-slate-200 flex flex-col justify-between shadow-sm bg-white hover:border-cyan-400 hover:shadow-md transition-all h-full">
+          <div>
+            <div class="aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-100 cursor-pointer relative group" data-preview="assets/images/balance-car.png" data-caption="平衡小车实物图">
+              <img src="assets/images/balance-car.png" alt="平衡小车实物图" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="pt-3 sm:pt-4 px-1 pb-1">
+              <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5">平衡小车</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">基于 STM32F103C8T6、编码电机与 MPU6050，结合 PID 控制实现姿态平衡与运动控制。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="glass-card p-3 sm:p-3.5 rounded-2xl border border-slate-200 flex flex-col justify-between shadow-sm bg-white hover:border-cyan-400 hover:shadow-md transition-all h-full">
+          <div>
+            <div class="aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-100 cursor-pointer relative group" data-preview="assets/images/electronic-compass.png" data-caption="电子罗盘实物图">
+              <img src="assets/images/electronic-compass.png" alt="电子罗盘实物图" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="pt-3 sm:pt-4 px-1 pb-1">
+              <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5">电子罗盘</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">融合陀螺仪与磁力计数据，完成姿态解算与串口数据输出，可拓展到移动设备姿态感知。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="glass-card p-3 sm:p-3.5 rounded-2xl border border-slate-200 flex flex-col justify-between shadow-sm bg-white hover:border-cyan-400 hover:shadow-md transition-all h-full">
+          <div>
+            <div class="aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-100 cursor-pointer relative group" data-preview="assets/images/medicine-delivery-car.png" data-caption="送药小车实物图">
+              <img src="assets/images/medicine-delivery-car.png" alt="送药小车实物图" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="pt-3 sm:pt-4 px-1 pb-1">
+              <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5">送药小车</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">基于 STM32F407、光电传感器、K230 摄像头与编码电机，实现识别、循迹与多车协同。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="glass-card p-3 sm:p-3.5 rounded-2xl border border-slate-200 flex flex-col justify-between shadow-sm bg-white hover:border-cyan-400 hover:shadow-md transition-all h-full">
+          <div>
+            <div class="aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-100 cursor-pointer relative group" data-preview="assets/images/ai-safety-arm.jpg" data-caption="AI-agent安全协作系统实物图">
+              <img src="assets/images/ai-safety-arm.jpg" alt="AI-agent安全协作系统实物图" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="pt-3 sm:pt-4 px-1 pb-1">
+              <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5">AI-agent安全协作系统</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">本地部署 AI 模型与 Agent 智能体赋能机械臂安全作业，结合视觉感知与边缘计算实现安全协作。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="glass-card p-3 sm:p-3.5 rounded-2xl border border-slate-200 flex flex-col justify-between shadow-sm bg-white hover:border-cyan-400 hover:shadow-md transition-all h-full">
+          <div>
+            <div class="aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-100 cursor-pointer relative group" data-preview="assets/images/teleop-robot-arm.jpg" data-caption="六自由度仿生机械臂实物图">
+              <img src="assets/images/teleop-robot-arm.jpg" alt="六自由度仿生机械臂实物图" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="pt-3 sm:pt-4 px-1 pb-1">
+              <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5">六自由度仿生机械臂</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">融合可穿戴 IMU 与 RGB-D 视觉追踪实现人体姿态同步跟随，支持动作示教录制与板载轨迹时间戳复现。</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 4: HONORS & HALL OF FAME
+         ========================================================================== -->
+    <section id="honors" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-mono mb-3">
+          <i class="fa-solid fa-award"></i>
+          <span>HALL OF FAME</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          硬核战绩 · 荣誉殿堂
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          近3年来，电子技术创新大本营 B306 实验室成员在全国多项顶级学科竞赛中斩获国家级殊荣，底蕴深厚，战力强劲。
+        </p>
+      </div>
+
+      <!-- Honors Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6 mb-6 sm:mb-8">
+
+        <!-- Award 2: 电赛国赛 国一 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden border border-yellow-200 group bg-gradient-to-b from-yellow-50/70 via-white to-yellow-50/30 shadow-sm flex flex-col justify-between h-full hover:border-yellow-300 hover:shadow-md transition-all">
+          <div>
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-2 border border-yellow-200 shadow-sm flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-105 transition-transform">
+              <img src="assets/images/logos/nuedc.png" alt="全国大学生电子设计竞赛" class="w-full h-full object-contain">
+            </div>
+            <span class="px-2.5 py-0.5 sm:py-1 rounded-full bg-yellow-100 text-yellow-800 font-mono text-[11px] sm:text-xs font-bold uppercase tracking-wider inline-block mb-2.5 sm:mb-3 border border-yellow-300">
+              国家级 · 国赛一等奖
+            </span>
+            <h3 class="text-xl sm:text-2xl font-black text-slate-900 mb-1.5 sm:mb-2">全国一等奖</h3>
+            <p class="text-yellow-800 font-semibold text-xs sm:text-sm mb-3 sm:mb-4">全国大学生电子设计竞赛（国赛）</p>
+          </div>
+          <p class="text-slate-600 text-xs leading-relaxed border-t border-yellow-100 pt-3 sm:pt-4">
+            在全国大学生电子设计竞赛国赛中斩获一等奖，体现了实验室在电子设计与系统调试上的综合实力。
+          </p>
+        </div>
+        
+        <!-- Award 1: 英特尔杯电赛邀请赛 国一 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden border border-amber-200 group bg-gradient-to-b from-amber-50/70 via-white to-amber-50/30 shadow-sm flex flex-col justify-between h-full hover:border-amber-300 hover:shadow-md transition-all">
+          <div>
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-2 border border-amber-200 shadow-sm flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-105 transition-transform">
+              <img src="assets/images/logos/intel-cup.png" alt="英特尔杯大学生电子设计竞赛" class="w-full h-full object-contain">
+            </div>
+            <span class="px-2.5 py-0.5 sm:py-1 rounded-full bg-amber-100 text-amber-800 font-mono text-[11px] sm:text-xs font-bold uppercase tracking-wider inline-block mb-2.5 sm:mb-3 border border-amber-300">
+              国家级 · 国赛一等奖
+            </span>
+            <h3 class="text-xl sm:text-2xl font-black text-slate-900 mb-1.5 sm:mb-2">全国一等奖</h3>
+            <p class="text-amber-800 font-semibold text-xs sm:text-sm mb-3 sm:mb-4">英特尔杯大学生电子设计竞赛（电赛邀请赛）</p>
+          </div>
+          <p class="text-slate-600 text-xs leading-relaxed border-t border-amber-100 pt-3 sm:pt-4">
+            顶级高校云集的全国性受邀角逐，凭借卓越控制算法、自制机械臂硬件和AI-agent系统登顶全国一等奖。
+          </p>
+        </div>
+
+        <!-- Award 3: 光电设计竞赛 国一 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden border border-emerald-200 group bg-gradient-to-b from-emerald-50/70 via-white to-emerald-50/30 shadow-sm flex flex-col justify-between h-full hover:border-emerald-300 hover:shadow-md transition-all">
+          <div>
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-2 border border-emerald-200 shadow-sm flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-105 transition-transform">
+              <img src="assets/images/logos/optoelectronic.png" alt="全国大学生光电设计竞赛" class="w-full h-full object-contain">
+            </div>
+            <span class="px-2.5 py-0.5 sm:py-1 rounded-full bg-emerald-100 text-emerald-800 font-mono text-[11px] sm:text-xs font-bold uppercase tracking-wider inline-block mb-2.5 sm:mb-3 border border-emerald-300">
+              国家级 · 光电赛道
+            </span>
+            <h3 class="text-xl sm:text-2xl font-black text-slate-900 mb-1.5 sm:mb-2">全国一等奖</h3>
+            <p class="text-emerald-800 font-semibold text-xs sm:text-sm mb-3 sm:mb-4">全国大学生光电设计竞赛</p>
+          </div>
+          <p class="text-slate-600 text-xs leading-relaxed border-t border-emerald-100 pt-3 sm:pt-4">
+            在光电设计竞赛中获得全国一等奖，覆盖光机电系统、传感检测与嵌入式控制等综合能力。
+          </p>
+        </div>
+
+        <!-- Award 4: 集创赛 国一 & 企业大奖 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden border border-cyan-200 group bg-gradient-to-b from-cyan-50/70 via-white to-cyan-50/30 shadow-sm flex flex-col justify-between h-full hover:border-cyan-300 hover:shadow-md transition-all">
+          <div>
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-2 border border-cyan-200 shadow-sm flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-105 transition-transform">
+              <img src="assets/images/logos/ciciec.png" alt="全国大学生集成电路创新创业大赛" class="w-full h-full object-contain">
+            </div>
+            <span class="px-2.5 py-0.5 sm:py-1 rounded-full bg-cyan-100 text-cyan-800 font-mono text-[11px] sm:text-xs font-bold uppercase tracking-wider inline-block mb-2.5 sm:mb-3 border border-cyan-300">
+              国家级 · 双料大奖
+            </span>
+            <div class="mb-1.5 sm:mb-2 flex flex-wrap items-baseline gap-1.5">
+              <h3 class="text-xl sm:text-2xl font-black text-slate-900 whitespace-nowrap">全国一等奖</h3>
+              <span class="text-[11px] sm:text-xs font-bold text-cyan-700 bg-cyan-100/90 px-1.5 py-0.5 rounded border border-cyan-300/80 whitespace-nowrap">+ 企业大奖</span>
+            </div>
+            <p class="text-cyan-800 font-semibold text-xs sm:text-sm mb-3 sm:mb-4 leading-snug">全国大学生集成电路创新创业大赛<span class="text-cyan-600/90 font-normal">（集创赛）</span></p>
+          </div>
+          <p class="text-slate-600 text-xs leading-relaxed border-t border-cyan-100 pt-3 sm:pt-4">
+            芯片级软硬协同创新，同时斩获全国一等奖与头部半导体企业授予的专项企业大奖。
+          </p>
+        </div>
+
+        <!-- Award 5: 电赛国赛 国二 -->
+        <div class="glass-card p-5 sm:p-6 lg:p-7 rounded-2xl relative overflow-hidden border border-blue-200 group bg-gradient-to-b from-blue-50/70 via-white to-blue-50/30 shadow-sm flex flex-col justify-between h-full sm:col-span-2 lg:col-span-1 xl:col-span-1 hover:border-blue-300 hover:shadow-md transition-all">
+          <div>
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-2 border border-blue-200 shadow-sm flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-105 transition-transform">
+              <img src="assets/images/logos/nuedc.png" alt="全国大学生电子设计竞赛" class="w-full h-full object-contain">
+            </div>
+            <span class="px-2.5 py-0.5 sm:py-1 rounded-full bg-blue-100 text-blue-800 font-mono text-[11px] sm:text-xs font-bold uppercase tracking-wider inline-block mb-2.5 sm:mb-3 border border-blue-300">
+              国家级 · 权威赛事
+            </span>
+            <h3 class="text-xl sm:text-2xl font-black text-slate-900 mb-1.5 sm:mb-2">全国二等奖</h3>
+            <p class="text-blue-800 font-semibold text-xs sm:text-sm mb-3 sm:mb-4">全国大学生电子设计竞赛（国赛）</p>
+          </div>
+          <p class="text-slate-600 text-xs leading-relaxed border-t border-blue-100 pt-3 sm:pt-4">
+            在电赛最高规格的国赛控制组比拼中稳定发挥，斩获国家级二等奖荣誉。
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Additional Honors Pill Bar -->
+      <div class="glass-card p-3.5 sm:p-4 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-700 gap-2.5 sm:gap-3 shadow-sm bg-white text-center sm:text-left">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-cyan-500 flex-shrink-0"></span>
+          <span>还有<strong class="text-slate-900">全国嵌入式芯片与系统设计竞赛</strong>等国家级/省级奖项若干</span>
+        </div>
+        <span class="font-mono text-cyan-800 bg-cyan-50 px-2.5 py-1 rounded border border-cyan-200 font-semibold">CONTINUOUS SUCCESS</span>
+      </div>
+
+    </section>
+
+
+    <!-- ==========================================================================
+         SECTION 5: CAREER & DESTINATIONS
+         ========================================================================== -->
+    <section id="career" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-purple-50 border border-purple-200 text-purple-700 text-xs font-mono mb-3">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>ALUMNI & DESTINATIONS</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          毕业去向与未来发展
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          加入电子技术创新大本营 B306，不仅是参与电子设计竞赛与项目实战，更是一条通往 <strong class="text-cyan-700 font-semibold">顶尖名校保研深造</strong> 与 <strong class="text-cyan-700 font-semibold">头部名企高薪就业</strong> 的成长路径。
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+        
+        <!-- Category 1: 名校保研/考研深造 -->
+        <div class="glass-card p-5 sm:p-7 rounded-2xl relative border border-blue-200 shadow-sm bg-white flex flex-col justify-between">
+          <div>
+            <div class="flex items-center space-x-3 mb-4">
+              <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-lg border border-blue-200 flex-shrink-0">
+                <i class="fa-solid fa-school"></i>
+              </div>
+              <div>
+                <h3 class="text-base sm:text-lg font-bold text-slate-900">名校保研 / 考研深造</h3>
+                <p class="text-xs text-slate-500">Top Universities & Research Institutes</p>
+              </div>
+            </div>
+            
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5">
+              实验室硬核竞赛奖项与项目经历在各大 985/211 顶尖高校保研夏令营与考研复试中极具含金量，毕业生成功录取的代表院校包括：
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+              <!-- USTC -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center hover:border-blue-400 hover:bg-white hover:shadow-sm transition-all flex flex-col items-center justify-center">
+                <div class="text-sm sm:text-base font-bold text-slate-900 mb-1">中国科学技术大学</div>
+                <span class="text-xs font-mono text-cyan-700 font-semibold tracking-wide">中科大 (USTC)</span>
+              </div>
+
+              <!-- UESTC -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center hover:border-blue-400 hover:bg-white hover:shadow-sm transition-all flex flex-col items-center justify-center">
+                <div class="text-sm sm:text-base font-bold text-slate-900 mb-1">电子科技大学</div>
+                <span class="text-xs font-mono text-cyan-700 font-semibold tracking-wide">成电 (UESTC)</span>
+              </div>
+
+              <!-- SEU -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center hover:border-blue-400 hover:bg-white hover:shadow-sm transition-all flex flex-col items-center justify-center">
+                <div class="text-sm sm:text-base font-bold text-slate-900 mb-1">东南大学</div>
+                <span class="text-xs font-mono text-cyan-700 font-semibold tracking-wide">东南 (SEU)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 pt-3.5 border-t border-slate-100 text-xs text-slate-600 flex items-center gap-1.5 font-medium">
+            <i class="fa-solid fa-circle-check text-blue-500"></i>
+            <span>以及多所 985/211 顶尖高校工科强院强所</span>
+          </div>
+        </div>
+
+        <!-- Category 2: 头部名企就业 -->
+        <div class="glass-card p-5 sm:p-7 rounded-2xl relative border border-emerald-200 shadow-sm bg-white flex flex-col justify-between">
+          <div>
+            <div class="flex items-center space-x-3 mb-4">
+              <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-lg border border-emerald-200 flex-shrink-0">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div>
+                <h3 class="text-base sm:text-lg font-bold text-slate-900">头部科技名企 Offer</h3>
+                <p class="text-xs text-slate-500">Leading Tech Enterprises & R&D</p>
+              </div>
+            </div>
+            
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5">
+              扎实的底层驱动、控制算法与独立工程解决能力深受行业青睐，实验室历届毕业生受聘于：
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+              <!-- Huawei -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center hover:border-emerald-400 hover:bg-white hover:shadow-sm transition-all flex flex-col items-center justify-center">
+                <div class="text-sm sm:text-base font-bold text-slate-900 mb-1">华为</div>
+                <span class="text-xs font-mono text-emerald-700 font-semibold tracking-wide">Huawei</span>
+              </div>
+
+              <!-- DJI -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center hover:border-emerald-400 hover:bg-white hover:shadow-sm transition-all flex flex-col items-center justify-center">
+                <div class="text-sm sm:text-base font-bold text-slate-900 mb-1">大疆创新</div>
+                <span class="text-xs font-mono text-emerald-700 font-semibold tracking-wide">DJI</span>
+              </div>
+
+              <!-- OPPO -->
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center hover:border-emerald-400 hover:bg-white hover:shadow-sm transition-all flex flex-col items-center justify-center">
+                <div class="text-sm sm:text-base font-bold text-slate-900 mb-1">OPPO</div>
+                <span class="text-xs font-mono text-emerald-700 font-semibold tracking-wide">OPPO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 pt-3.5 border-t border-slate-100 text-xs text-slate-600 flex items-center gap-1.5 font-medium">
+            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+            <span>及多家国家级核心技术平台与高精尖芯片/智能硬件研发岗</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 6: REQUIREMENTS & TECH RADAR
+         ========================================================================== -->
+    <section id="requirements" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-4xl mx-auto mb-10 sm:mb-16">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-slate-700 text-xs font-mono mb-3">
+          <i class="fa-solid fa-bullseye text-cyan-600"></i>
+          <span>WHO WE ARE LOOKING FOR</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          招新对象与培养要求
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          实验室面向重庆邮电大学大一/大二本科学生分流培养。请根据所在年级查看对应的招募定位与要求。
+        </p>
+      </div>
+
+      <!-- ======================================================================
+           TRACK 1: FRESHMAN (大一培养入口 · 绿色系 · 零基础友好)
+           ====================================================================== -->
+      <div class="rounded-3xl border-2 border-emerald-200/90 bg-gradient-to-br from-emerald-50/40 via-white to-teal-50/30 p-5 sm:p-8 lg:p-10 shadow-lg shadow-emerald-500/5 mb-10 sm:mb-14">
+        
+        <!-- Track 1 Top Banner -->
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5 pb-6 border-b border-emerald-200/70">
+          <div>
+            <div class="flex flex-wrap items-center gap-2 mb-2.5">
+              <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-mono font-bold border border-emerald-300 flex items-center gap-1.5 shadow-sm">
+                <i class="fa-solid fa-seedling text-emerald-600"></i>
+                <span>TRACK 01 · 大一培养入口</span>
+              </span>
+              <span class="px-2.5 py-1 rounded-full bg-white text-emerald-700 text-xs font-mono font-bold border border-emerald-200">面向 2026 级本科生</span>
+              <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-mono font-bold shadow-sm">零基础友好 · 长期培养</span>
+            </div>
+            <h3 class="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 tracking-tight">
+              大一培养入口：从兴趣出发，进入长期系统培养
+            </h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-2 max-w-3xl leading-relaxed">
+              <strong class="text-emerald-800 font-semibold">无需提前掌握复杂单片机或电路设计。</strong> 实验室提供完备的工位、仪器与学习路线，重点考察学习态度、动手探索欲望与持续投入度。
+            </p>
+          </div>
+
+          <!-- Track 1 Quick Meta Badges -->
+          <div class="flex flex-wrap sm:flex-nowrap lg:flex-col gap-2 flex-shrink-0 text-xs font-mono">
+            <div class="px-3.5 py-2 rounded-xl bg-white border border-emerald-200 shadow-sm flex items-center justify-between gap-3">
+              <span class="text-slate-500">招纳名额</span>
+              <span class="font-bold text-emerald-700">12 ~ 15 人</span>
+            </div>
+            <div class="px-3.5 py-2 rounded-xl bg-white border border-emerald-200 shadow-sm flex items-center justify-between gap-3">
+              <span class="text-slate-500">启动时间</span>
+              <span class="font-bold text-amber-700">预计国庆节左右</span>
+            </div>
+            <div class="px-3.5 py-2 rounded-xl bg-white border border-emerald-200 shadow-sm flex items-center justify-between gap-3">
+              <span class="text-slate-500">选拔方式</span>
+              <span class="font-bold text-cyan-700">基础训练+阶段考核</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Track 1 Body Grid -->
+        <div class="pt-6 sm:pt-8 grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-6">
+          
+          <!-- 3 Freshman Trait Cards (Left 7 Cols) -->
+          <div class="lg:col-span-7 space-y-3 sm:space-y-4">
+            <div class="flex items-center gap-2 mb-1">
+              <i class="fa-solid fa-circle-check text-emerald-600 text-sm"></i>
+              <h4 class="text-sm sm:text-base font-bold text-slate-900">大一选拔核心关注的 3 大综合素质</h4>
+            </div>
+
+            <!-- Trait 1 -->
+            <div class="glass-card p-4 sm:p-4.5 rounded-xl border border-emerald-100 bg-white/90 shadow-sm flex items-start gap-3.5">
+              <div class="w-9 h-9 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 flex items-center justify-center flex-shrink-0 text-base mt-0.5">
+                <i class="fa-solid fa-handshake-angle"></i>
+              </div>
+              <div>
+                <h5 class="text-sm font-bold text-slate-900 mb-1">团队合作与主动沟通</h5>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">能够主动交流学习进度、疑问和想法，不闭门造车，尊重团队安排与协作分工。</p>
+              </div>
+            </div>
+
+            <!-- Trait 2 -->
+            <div class="glass-card p-4 sm:p-4.5 rounded-xl border border-emerald-100 bg-white/90 shadow-sm flex items-start gap-3.5">
+              <div class="w-9 h-9 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 flex items-center justify-center flex-shrink-0 text-base mt-0.5">
+                <i class="fa-solid fa-book-open-reader"></i>
+              </div>
+              <div>
+                <h5 class="text-sm font-bold text-slate-900 mb-1">强自学能力与探索热情</h5>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">对电子设计与软硬件开发有强烈兴趣，遇到问题主动查阅文档、动手调试与持续复盘。</p>
+              </div>
+            </div>
+
+            <!-- Trait 3 -->
+            <div class="glass-card p-4 sm:p-4.5 rounded-xl border border-emerald-100 bg-white/90 shadow-sm flex items-start gap-3.5">
+              <div class="w-9 h-9 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 flex items-center justify-center flex-shrink-0 text-base mt-0.5">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div>
+                <h5 class="text-sm font-bold text-slate-900 mb-1">端正态度、纪律与阶段考核</h5>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">遵守实验室规章制度与阶段任务安排；若出现长期懈怠或校内学业严重落后，会沟通后劝退。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Freshman Notice & Join Box (Right 5 Cols) -->
+          <div class="lg:col-span-5 flex flex-col justify-between space-y-4">
+            <!-- Notice Box -->
+            <div class="p-4 sm:p-5 rounded-2xl border border-amber-200 bg-amber-50/70 shadow-sm">
+              <h5 class="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <i class="fa-solid fa-triangle-exclamation text-amber-600"></i>
+                <span>报名前请认真确认</span>
+              </h5>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-3">
+                参与招新的同学应能良好兼顾日常课程、竞赛训练与生活；如果日常课业已较为吃力，请慎重评估报名。进入考核后需服从安排并认真完成阶段任务。
+              </p>
+              <div class="text-[11px] sm:text-xs text-amber-800 font-medium flex items-center gap-1.5">
+                <i class="fa-solid fa-circle-check text-amber-600"></i>
+                <span>请根据个人精力理性评估投入时间</span>
+              </div>
+            </div>
+
+            <!-- Freshman Quick Group Entry -->
+            <div class="p-4 sm:p-5 rounded-2xl border border-emerald-200 bg-white shadow-sm flex flex-col justify-between gap-3">
+              <div class="flex items-center justify-between">
+                <div>
+                  <span class="text-xs text-slate-500 block">大一官方招新群</span>
+                  <span class="text-base sm:text-lg font-mono font-bold text-emerald-700">1108883297</span>
+                </div>
+                <span class="px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 text-[11px] font-mono border border-emerald-200">QQ群</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=VY%2Bm83y%2BXgS6918iTTkL2ft5fk1NL40IHvTSrKWOdEhpZXz9OV3vGMEJ8visKe%2Bs&busi_data=eyJncm91cENvZGUiOiIxMTA4ODgzMjk3IiwidG9rZW4iOiJIeTVBYjJ4M21MRXZiT0tIWjh2RnlqSVNRdUEwTnhCNnY4UWUwWThUbUxKcWhwbGZkVFlaYVVUNDFCRC9mYmRnIiwidWluIjoiMzQ5NDg1OTgwOCJ9&data=kNIxNxDvFv1Uh2BWw_xNYmtvDWgZSYGYsGUYOwp9jaSlxV0C4tli_eW-meaRw_9TRQJFTx0Th8OT8iW2EVF3iA&svctype=4&tempid=h5_group_info" target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow transition flex items-center justify-center gap-1.5">
+                  <i class="fa-brands fa-qq"></i>
+                  <span>一键加群</span>
+                </a>
+                <button class="btn-copy-group flex-1 py-2.5 px-3 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-semibold text-xs border border-emerald-200 transition flex items-center justify-center gap-1.5" data-group-number="1108883297">
+                  <i class="fa-regular fa-copy"></i>
+                  <span>复制群号</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ======================================================================
+           TRACK 2: SOPHOMORE (大二竞赛梯队 · 科技蓝系 · 竞赛实战)
+           ====================================================================== -->
+      <div class="rounded-3xl border-2 border-cyan-200/90 bg-gradient-to-br from-cyan-50/40 via-white to-blue-50/30 p-5 sm:p-8 lg:p-10 shadow-lg shadow-cyan-500/5 mb-10 sm:mb-14">
+        
+        <!-- Track 2 Top Banner -->
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5 pb-6 border-b border-cyan-200/70">
+          <div>
+            <div class="flex flex-wrap items-center gap-2 mb-2.5">
+              <span class="px-3 py-1 rounded-full bg-cyan-100 text-cyan-800 text-xs font-mono font-bold border border-cyan-300 flex items-center gap-1.5 shadow-sm">
+                <i class="fa-solid fa-trophy text-cyan-600"></i>
+                <span>TRACK 02 · 大二竞赛梯队</span>
+              </span>
+              <span class="px-2.5 py-1 rounded-full bg-white text-cyan-700 text-xs font-mono font-bold border border-cyan-200">面向 2025 级本科生</span>
+              <span class="px-2.5 py-1 rounded-full bg-cyan-600 text-white text-xs font-mono font-bold shadow-sm">竞赛实战补充招募</span>
+            </div>
+            <h3 class="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 tracking-tight">
+              大二竞赛梯队：具备一定基础，直通学科竞赛实战
+            </h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-2 max-w-3xl leading-relaxed">
+              <strong class="text-cyan-800 font-semibold">此入口针对已有一定基础的同学。</strong> 面向具备单片机开发、C语言、电路基础或项目经历的 2025 级本科生，通过履历评估与阶段任务考核直接进入电赛备战梯队。
+            </p>
+          </div>
+
+          <!-- Track 2 Quick Meta Badges -->
+          <div class="flex flex-wrap sm:flex-nowrap lg:flex-col gap-2 flex-shrink-0 text-xs font-mono">
+            <div class="px-3.5 py-2 rounded-xl bg-white border border-cyan-200 shadow-sm flex items-center justify-between gap-3">
+              <span class="text-slate-500">补招名额</span>
+              <span class="font-bold text-cyan-700">3 ~ 6 人</span>
+            </div>
+            <div class="px-3.5 py-2 rounded-xl bg-white border border-cyan-200 shadow-sm flex items-center justify-between gap-3">
+              <span class="text-slate-500">招募状态</span>
+              <span class="font-bold text-emerald-700">即日起开放投递</span>
+            </div>
+            <div class="px-3.5 py-2 rounded-xl bg-white border border-cyan-200 shadow-sm flex items-center justify-between gap-3">
+              <span class="text-slate-500">选拔方式</span>
+              <span class="font-bold text-indigo-700">履历投递+任务考核</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Track 2 Body Grid -->
+        <div class="pt-6 sm:pt-8">
+          
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-code text-cyan-600 text-sm"></i>
+              <h4 class="text-sm sm:text-base font-bold text-slate-900">大二梯队重点考察的 4 大硬核能力要求</h4>
+            </div>
+            <span class="hidden sm:inline-block text-xs font-mono text-cyan-700 font-semibold">PREREQUISITES FOR SOPHOMORE</span>
+          </div>
+
+          <!-- 4 Core Competencies Cards (Sophomore) -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
+            
+            <!-- Requirement 1: C语言 -->
+            <div class="glass-card p-5 sm:p-6 rounded-2xl relative flex flex-col justify-between bg-white border border-slate-200 shadow-sm hover:border-cyan-400 transition-colors">
+              <div>
+                <div class="flex items-center space-x-3 mb-3.5 sm:mb-4">
+                  <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-blue-500/10 text-blue-600 flex items-center justify-center font-mono font-bold text-sm sm:text-base border border-blue-500/20">
+                    01
+                  </div>
+                  <div>
+                    <h5 class="text-base sm:text-lg font-bold text-slate-900">扎实的 C 语言功底</h5>
+                    <p class="text-xs font-mono text-cyan-700">Core Language & Memory</p>
+                  </div>
+                </div>
+                <p class="text-slate-700 text-xs sm:text-sm leading-relaxed mb-4">
+                  熟练掌握<strong class="text-slate-900">指针、结构体、位运算、函数指针与内存布局</strong>，具备严谨规范的代码排版风格和模块化工程意识。
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-100">
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">Pointers & Struct</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">Bitwise Ops</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">Code Style</span>
+              </div>
+            </div>
+
+            <!-- Requirement 2: 常见通信协议 -->
+            <div class="glass-card p-5 sm:p-6 rounded-2xl relative flex flex-col justify-between bg-white border border-slate-200 shadow-sm hover:border-cyan-400 transition-colors">
+              <div>
+                <div class="flex items-center space-x-3 mb-3.5 sm:mb-4">
+                  <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-cyan-500/10 text-cyan-600 flex items-center justify-center font-mono font-bold text-sm sm:text-base border border-cyan-500/20">
+                    02
+                  </div>
+                  <div>
+                    <h5 class="text-base sm:text-lg font-bold text-slate-900">掌握常见总线与通信协议</h5>
+                    <p class="text-xs font-mono text-cyan-700">Bus Protocols & Drivers</p>
+                  </div>
+                </div>
+                <p class="text-slate-700 text-xs sm:text-sm leading-relaxed mb-4">
+                  深入理解并能熟练调试 <code class="text-cyan-800 bg-cyan-50 border border-cyan-200 px-1 py-0.5 rounded font-mono font-medium">UART</code>、<code class="text-cyan-800 bg-cyan-50 border border-cyan-200 px-1 py-0.5 rounded font-mono font-medium">I2C</code>、<code class="text-cyan-800 bg-cyan-50 border border-cyan-200 px-1 py-0.5 rounded font-mono font-medium">SPI</code> 等基本总线通信协议（了解 <code class="text-slate-700">CAN</code>、<code class="text-slate-700">DMA</code> 机制更佳）。
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-100">
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">UART / USART</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">I2C / SPI</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">CAN & DMA (Bonus)</span>
+              </div>
+            </div>
+
+            <!-- Requirement 3: 独立自主排障 -->
+            <div class="glass-card p-5 sm:p-6 rounded-2xl relative flex flex-col justify-between bg-white border border-slate-200 shadow-sm hover:border-cyan-400 transition-colors">
+              <div>
+                <div class="flex items-center space-x-3 mb-3.5 sm:mb-4">
+                  <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-purple-500/10 text-purple-600 flex items-center justify-center font-mono font-bold text-sm sm:text-base border border-purple-500/20">
+                    03
+                  </div>
+                  <div>
+                    <h5 class="text-base sm:text-lg font-bold text-slate-900">独立自主的 Debug 与排障能力</h5>
+                    <p class="text-xs font-mono text-purple-700">Troubleshooting & Profiling</p>
+                  </div>
+                </div>
+                <p class="text-slate-700 text-xs sm:text-sm leading-relaxed mb-4">
+                  面对硬件异常、信号波形畸变或程序跑飞时，能熟练运用示波器、逻辑分析仪与 J-Link/DAP 调试器准确定位并排除 Bug。
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-100">
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">Oscilloscope</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">Logic Analyzer</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">J-Link / DAP</span>
+              </div>
+            </div>
+
+            <!-- Requirement 4: 项目与竞赛经历 -->
+            <div class="glass-card p-5 sm:p-6 rounded-2xl relative flex flex-col justify-between bg-white border border-slate-200 shadow-sm hover:border-cyan-400 transition-colors">
+              <div>
+                <div class="flex items-center space-x-3 mb-3.5 sm:mb-4">
+                  <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center font-mono font-bold text-sm sm:text-base border border-amber-500/20">
+                    04
+                  </div>
+                  <div>
+                    <h5 class="text-base sm:text-lg font-bold text-slate-900">项目实战与竞赛经历（优先）</h5>
+                    <p class="text-xs font-mono text-amber-700">Projects & Experience</p>
+                  </div>
+                </div>
+                <p class="text-slate-700 text-xs sm:text-sm leading-relaxed mb-4">
+                  具备个人独立或团队开发的嵌入式/硬件项目经历，或曾参加过<strong class="text-slate-900">电赛校赛/省赛、智能车竞赛、机器人大赛</strong>等并取得成绩者优先。
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-100">
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">Embedded Project</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">Smart Car / RoboMaster</span>
+                <span class="px-2.5 py-1 rounded bg-slate-100 text-[11px] font-mono text-slate-700 border border-slate-200 font-medium">NUEDC Exp</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Sophomore Quick Group Entry Bar -->
+          <div class="p-4 sm:p-5 rounded-2xl border border-cyan-200 bg-white shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-cyan-50 text-cyan-700 border border-cyan-200 flex items-center justify-center text-lg flex-shrink-0">
+                <i class="fa-solid fa-envelope-open-text"></i>
+              </div>
+              <div>
+                <p class="text-xs sm:text-sm font-bold text-slate-900">大二投递通道：入群后按说明向指定邮箱提交个人履历</p>
+                <p class="text-xs text-slate-500">大二竞赛梯队招新群：<span class="font-mono font-bold text-cyan-700">736420091</span></p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 w-full sm:w-auto">
+              <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=J8YoxvxALTeTbbihLNi61%2BHFaJHCrKbZUQbcdaTYoM1o4Dv6zCUjfeX5iEqP%2Fd0Q&busi_data=eyJncm91cENvZGUiOiI3MzY0MjAwOTEiLCJ0b2tlbiI6IndUZS84di82ZTJjZDJuUnA1WHk3Y2dxVlNsYVpyeVFZKzE4WVZUYTdaWkxTNFRNVFp0bkdRQWI3Q2RXaEtQSjkiLCJ1aW4iOiIzNDk0ODU5ODA4In0%3D&data=b7EAFG8FYv30LDjuHvJZH79OBqYsTGKDmsLTGnuOTRbbs57FCmhsbgINr4J7hbesU0gBEfJQCdw9FfzJoV9kRQ&svctype=4&tempid=h5_group_info" target="_blank" rel="noopener noreferrer" class="flex-1 sm:flex-none py-2.5 px-4 rounded-xl bg-cyan-600 hover:bg-cyan-700 text-white font-bold text-xs shadow transition flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-qq"></i>
+                <span>一键加群</span>
+              </a>
+              <button class="btn-copy-group flex-1 sm:flex-none py-2.5 px-4 rounded-xl bg-cyan-50 hover:bg-cyan-100 text-cyan-800 font-semibold text-xs border border-cyan-200 transition flex items-center justify-center gap-1.5" data-group-number="736420091">
+                <i class="fa-regular fa-copy"></i>
+                <span>复制群号</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Why Software-Oriented Deep Dive -->
+      <div class="glass-card p-5 sm:p-7 lg:p-8 rounded-2xl border border-cyan-200 bg-gradient-to-br from-blue-50/60 via-white to-cyan-50/60 shadow-md">
+        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+          <div class="space-y-2 max-w-2xl">
+            <span class="text-xs font-mono text-cyan-800 px-2.5 py-1 rounded-md bg-cyan-100/90 border border-cyan-200 font-semibold inline-block">
+              💡 深度解析 · 为什么强调“偏向软件”？
+            </span>
+            <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">电赛控制题的终极胜负手在于控制算法与软件工程</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              在当今全国电赛控制题中，稳定的硬件只是基础入场券，真正的毫厘之争在于：<strong class="text-cyan-800 font-semibold">串级 PID 动态调谐、卡尔曼滤波信号融合、运动学/逆运动学轨迹规划、有限状态机（FSM）事件调度，以及 OpenMV / K230 边缘视觉协同</strong>。
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-2.5 sm:gap-3 w-full lg:w-auto font-mono text-xs text-slate-700 flex-shrink-0">
+            <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm">
+              <span class="text-cyan-700 font-bold block mb-1">⚡ 算法层</span>
+              <span class="text-slate-600">Cascade PID / Kalman</span>
+            </div>
+            <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm">
+              <span class="text-blue-700 font-bold block mb-1">🔄 调度层</span>
+              <span class="text-slate-600">FreeRTOS / FSM Logic</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm">
+              <span class="text-indigo-700 font-bold block mb-1">👁️ 视觉层</span>
+              <span class="text-slate-600">OpenMV / K230 Edge</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm">
+              <span class="text-emerald-700 font-bold block mb-1">⚙️ 底层驱动</span>
+              <span class="text-slate-600">PWM / Encoder / IMU</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ==========================================================================
+         SECTION 7: RECRUITMENT ROADMAP / PROCESS
+         ========================================================================== -->
+    <section id="process" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="text-center max-w-4xl mx-auto mb-10 sm:mb-14">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-cyan-50 border border-cyan-200 text-cyan-700 text-xs font-mono mb-3">
+          <i class="fa-solid fa-route"></i>
+          <span>ROADMAP & EVALUATION</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          大一 / 大二分流招新流程
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          大一培养预计国庆节左右启动；大二竞赛梯队按“履历投递 + 阶段任务”进行筛选。具体安排以对应招新群通知为准。
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-6">
+        <!-- First-Year Track -->
+        <div class="rounded-2xl border border-emerald-200 bg-white p-5 sm:p-7 lg:p-8 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-start justify-between gap-3 sm:gap-4 mb-6 sm:mb-8">
+              <div>
+                <span class="text-xs font-mono text-emerald-700 font-semibold">FIRST-YEAR TRACK</span>
+                <h3 class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 mt-1.5">大一培养流程</h3>
+              </div>
+              <span class="shrink-0 px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-mono border border-emerald-200 font-semibold">12 ~ 15 人</span>
+            </div>
+
+            <div class="space-y-0">
+              <div class="relative pl-8 sm:pl-10 pb-6 sm:pb-7 border-l-2 border-emerald-200">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center shadow">1</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">加入官方招新群</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">加入大一招新群 <span class="font-mono text-emerald-700 font-semibold">1108883297</span>，关注招新通知和答疑安排。</p>
+              </div>
+              <div class="relative pl-8 sm:pl-10 pb-6 sm:pb-7 border-l-2 border-emerald-200">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center shadow">2</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">信息登记与方向了解</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">按群内通知完成报名信息登记，说明个人基础、兴趣方向、可投入时间与动手经历。</p>
+              </div>
+              <div class="relative pl-8 sm:pl-10 pb-6 sm:pb-7 border-l-2 border-emerald-200">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center shadow">3</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">入门训练与阶段任务</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">国庆节左右围绕单片机、基础电路、传感器应用、焊接调试或 FPGA 等方向开展训练任务。</p>
+              </div>
+              <div class="relative pl-8 sm:pl-10">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center shadow">4</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">择优招纳与持续培养</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">结合任务完成情况、课程成绩、团队协作和往届成员留任情况择优招纳，进入长期培养梯队。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sophomore Track -->
+        <div class="rounded-2xl border border-cyan-200 bg-white p-5 sm:p-7 lg:p-8 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-start justify-between gap-3 sm:gap-4 mb-6 sm:mb-8">
+              <div>
+                <span class="text-xs font-mono text-cyan-700 font-semibold">SOPHOMORE TRACK</span>
+                <h3 class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 mt-1.5">大二竞赛梯队流程</h3>
+              </div>
+              <span class="shrink-0 px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-700 text-xs font-mono border border-cyan-200 font-semibold">3 ~ 6 人</span>
+            </div>
+
+            <div class="space-y-0">
+              <div class="relative pl-8 sm:pl-10 pb-6 sm:pb-7 border-l-2 border-cyan-200">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-cyan-600 text-white text-xs font-bold flex items-center justify-center shadow">1</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">加入官方招新群</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">加入大二竞赛梯队招新群 <span class="font-mono text-cyan-700 font-semibold">736420091</span>，获取投递要求、答疑信息和后续安排。</p>
+              </div>
+              <div class="relative pl-8 sm:pl-10 pb-6 sm:pb-7 border-l-2 border-cyan-200">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-cyan-600 text-white text-xs font-bold flex items-center justify-center shadow">2</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">向指定邮箱投递个人履历</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">按群内说明向指定邮箱提交个人履历，建议包含项目经历、竞赛经历、代码仓库、实物照片或调试记录。</p>
+              </div>
+              <div class="relative pl-8 sm:pl-10 pb-6 sm:pb-7 border-l-2 border-cyan-200">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-cyan-600 text-white text-xs font-bold flex items-center justify-center shadow">3</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">阶段任务考核</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">按照实验室安排完成阶段任务，重点考察基础能力、学习效率、工程实现、调试能力与协作态度。</p>
+              </div>
+              <div class="relative pl-8 sm:pl-10">
+                <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-cyan-600 text-white text-xs font-bold flex items-center justify-center shadow">4</span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 mb-1">择优招纳</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">根据履历、阶段任务表现和综合情况择优招纳。最终解释权归电子技术创新大本营 B306 实验室所有。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 sm:mt-8 rounded-2xl border border-amber-200 bg-amber-50 px-4 sm:px-5 py-3.5 sm:py-4">
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+          <strong class="text-amber-800 font-semibold">说明：</strong>招新内容会根据具体情况发生变动，请参与招新的同学时刻留意招新群内的信息动态；若招新说明发生变动，以群内最新说明为准。以上说明的最终解释权归电子技术创新大本营 B306 实验室所有。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 8: FREQUENTLY ASKED QUESTIONS (FAQ)
+         ========================================================================== -->
+    <section id="faq" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center mb-10 sm:mb-16 max-w-3xl mx-auto">
+        <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-600 text-xs font-mono mb-3">
+          <i class="fa-solid fa-circle-question"></i>
+          <span>FAQ & ANSWERS</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3 sm:mb-4">
+          常见问题答疑
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base text-balance">
+          关于招新、时间投入、考核管理与技术方向的答疑解惑。
+        </p>
+      </div>
+
+      <!-- Accordion Container -->
+      <div class="space-y-3 sm:space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="accordion-item glass-card rounded-xl border border-slate-200 transition-colors shadow-sm bg-white overflow-hidden">
+          <button class="accordion-header w-full p-4 sm:p-5 text-left flex items-center justify-between focus:outline-none gap-3">
+            <span class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2.5 sm:gap-3">
+              <span class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-cyan-50 text-cyan-700 border border-cyan-200 text-xs font-mono flex items-center justify-center flex-shrink-0 font-bold">Q1</span>
+              <span>实验室强调“偏向软件”，具体体现在哪些技术方向？</span>
+            </span>
+            <i class="fa-solid fa-chevron-down accordion-icon text-slate-500 text-xs sm:text-sm transition-transform duration-300 flex-shrink-0"></i>
+          </button>
+          <div class="accordion-content">
+            <div class="px-4 pb-4 sm:px-5 sm:pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100 pt-3 sm:pt-4">
+              电赛控制题不仅要求硬件稳定，核心胜负手在于控制算法和上层软件。我们深入研究 <strong class="text-slate-900">PID 调谐、经典/现代控制理论（LQR/卡尔曼滤波）、运动学解算、状态机调度、视觉辅助追踪（OpenMV / K230 / Linux 边缘计算）</strong> 等，将算法落地于电机、机械臂、无人机与移动底盘。
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="accordion-item glass-card rounded-xl border border-slate-200 transition-colors shadow-sm bg-white overflow-hidden">
+          <button class="accordion-header w-full p-4 sm:p-5 text-left flex items-center justify-between focus:outline-none gap-3">
+            <span class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2.5 sm:gap-3">
+              <span class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-cyan-50 text-cyan-700 border border-cyan-200 text-xs font-mono flex items-center justify-center flex-shrink-0 font-bold">Q2</span>
+              <span>参加招新会占用很多日常课程时间吗？</span>
+            </span>
+            <i class="fa-solid fa-chevron-down accordion-icon text-slate-500 text-xs sm:text-sm transition-transform duration-300 flex-shrink-0"></i>
+          </button>
+          <div class="accordion-content">
+            <div class="px-4 pb-4 sm:px-5 sm:pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100 pt-3 sm:pt-4">
+              参与招新的同学需要良好兼顾课程、竞赛与生活，并保证稳定投入。若日常课程和学习已经较为疲惫，请慎重报名；进入考核后需服从教练团队安排，遵守实验室规章制度与阶段任务要求。
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="accordion-item glass-card rounded-xl border border-slate-200 transition-colors shadow-sm bg-white overflow-hidden">
+          <button class="accordion-header w-full p-4 sm:p-5 text-left flex items-center justify-between focus:outline-none gap-3">
+            <span class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2.5 sm:gap-3">
+              <span class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-cyan-50 text-cyan-700 border border-cyan-200 text-xs font-mono flex items-center justify-center flex-shrink-0 font-bold">Q3</span>
+              <span>基础不完整可以报名吗？大二同学有什么要求？</span>
+            </span>
+            <i class="fa-solid fa-chevron-down accordion-icon text-slate-500 text-xs sm:text-sm transition-transform duration-300 flex-shrink-0"></i>
+          </button>
+          <div class="accordion-content">
+            <div class="px-4 pb-4 sm:px-5 sm:pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100 pt-3 sm:pt-4">
+              2026级基础培养入口更看重兴趣、态度、自学能力和持续投入，基础不完整也可以报名并通过训练逐步补齐；大二竞赛梯队属于补充招募，需要满足一定 C 语言、电路基础或项目/竞赛经历要求，并能完成后续阶段任务考核。
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         SECTION 9: JOIN US / CONTACT MEGA SECTION
+         ========================================================================== -->
+    <section id="contact" class="py-14 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div class="glass-card rounded-3xl p-5 sm:p-8 lg:p-12 border border-cyan-200 relative overflow-hidden bg-gradient-to-b from-white via-cyan-50/20 to-blue-50/30 shadow-xl shadow-cyan-500/5">
+        <div class="absolute -top-20 -right-20 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-20 -left-20 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="relative z-10 space-y-6 sm:space-y-8">
+          <div class="max-w-3xl">
+            <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-100 border border-cyan-200 text-cyan-800 text-xs font-mono mb-4 sm:mb-5 font-medium">
+              <span class="w-2 h-2 rounded-full bg-cyan-500 animate-ping"></span>
+              <span>JOIN ET INNOVATION CAMP · B306 2026</span>
+            </div>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight text-balance mb-3 sm:mb-4">
+              加入电子技术创新大本营 B306 招新群聊
+            </h2>
+            <p class="text-slate-700 text-xs sm:text-sm md:text-base leading-relaxed text-balance">
+              请根据当前年级选择对应入口。2026 级本科生进入大一培养入口群，2025 级同学进入大二竞赛梯队群；后续招新任务和变动以群内最新说明为准。
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-6">
+            <!-- Freshman Card -->
+            <div class="p-4 sm:p-5 lg:p-6 rounded-2xl bg-white border border-emerald-200 shadow-sm space-y-4 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-3 mb-4">
+                  <div>
+                    <p class="text-sm sm:text-base font-bold text-slate-900">电子技术创新大本营 · B306 大一培养入口</p>
+                    <p class="text-xs text-slate-500 mt-0.5">面向重庆邮电大学 2026 级本科生</p>
+                  </div>
+                  <span class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-mono border border-emerald-200 font-semibold flex-shrink-0">12 ~ 15 人</span>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 sm:gap-5 items-center">
+                  <div class="relative group cursor-pointer flex-shrink-0 w-36 sm:w-44 lg:w-48 max-w-[200px]" data-preview="assets/images/qrcode-freshman.jpg" data-caption="电子技术创新大本营 · B306 大一培养入口 QQ群二维码 (群号: 1108883297)">
+                    <div class="absolute -inset-1.5 bg-gradient-to-r from-emerald-500 via-cyan-400 to-blue-500 rounded-3xl blur opacity-30 group-hover:opacity-70 transition duration-500"></div>
+                    <div class="relative bg-white p-2.5 sm:p-3 rounded-2xl border border-slate-200 shadow-sm">
+                      <img src="assets/images/qrcode-freshman.jpg" alt="电子技术创新大本营 B306 大一培养入口群二维码" class="w-full h-auto object-contain rounded-xl transition-transform duration-300 group-hover:scale-105">
+                    </div>
+                  </div>
+
+                  <div class="space-y-3 w-full text-center sm:text-left">
+                    <div class="flex items-center justify-between gap-3 font-mono text-xs sm:text-sm">
+                      <span class="text-slate-500">QQ 群号：</span>
+                      <span class="text-base sm:text-lg font-bold text-emerald-700">1108883297</span>
+                    </div>
+                    <div class="flex items-center justify-between gap-3 text-xs">
+                      <span class="text-slate-500">预计启动：</span>
+                      <span class="font-bold text-amber-700">国庆节左右</span>
+                    </div>
+                    <div class="flex flex-col gap-2 pt-1">
+                      <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=VY%2Bm83y%2BXgS6918iTTkL2ft5fk1NL40IHvTSrKWOdEhpZXz9OV3vGMEJ8visKe%2Bs&busi_data=eyJncm91cENvZGUiOiIxMTA4ODgzMjk3IiwidG9rZW4iOiJIeTVBYjJ4M21MRXZiT0tIWjh2RnlqSVNRdUEwTnhCNnY4UWUwWThUbUxKcWhwbGZkVFlaYVVUNDFCRC9mYmRnIiwidWluIjoiMzQ5NDg1OTgwOCJ9&data=kNIxNxDvFv1Uh2BWw_xNYmtvDWgZSYGYsGUYOwp9jaSlxV0C4tli_eW-meaRw_9TRQJFTx0Th8OT8iW2EVF3iA&svctype=4&tempid=h5_group_info" target="_blank" rel="noopener noreferrer" class="w-full px-4 py-2.5 sm:py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm shadow-md shadow-emerald-600/20 hover:shadow-emerald-600/30 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-qq text-base"></i>
+                        <span>一键加入大一招新群</span>
+                      </a>
+                      <button class="btn-copy-group w-full px-4 py-2 sm:py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-semibold text-xs border border-emerald-200 transition flex items-center justify-center gap-2" data-group-number="1108883297">
+                        <i class="fa-solid fa-copy"></i>
+                        <span>复制大一群号</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sophomore Card -->
+            <div class="p-4 sm:p-5 lg:p-6 rounded-2xl bg-white border border-cyan-200 shadow-sm space-y-4 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-3 mb-4">
+                  <div>
+                    <p class="text-sm sm:text-base font-bold text-slate-900">电子技术创新大本营 · B306 大二竞赛梯队</p>
+                    <p class="text-xs text-slate-500 mt-0.5">面向重庆邮电大学 2025 级本科生</p>
+                  </div>
+                  <span class="px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-700 text-xs font-mono border border-cyan-200 font-semibold flex-shrink-0">3 ~ 6 人</span>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 sm:gap-5 items-center">
+                  <div class="relative group cursor-pointer flex-shrink-0 w-36 sm:w-44 lg:w-48 max-w-[200px]" data-preview="assets/images/qrcode.jpg" data-caption="电子技术创新大本营 · B306 大二竞赛梯队 QQ群二维码 (群号: 736420091)">
+                    <div class="absolute -inset-1.5 bg-gradient-to-r from-blue-600 via-cyan-400 to-teal-400 rounded-3xl blur opacity-30 group-hover:opacity-70 transition duration-500"></div>
+                    <div class="relative bg-white p-2.5 sm:p-3 rounded-2xl border border-slate-200 shadow-sm">
+                      <img src="assets/images/qrcode.jpg" alt="电子技术创新大本营 B306 大二竞赛梯队群二维码" class="w-full h-auto object-contain rounded-xl transition-transform duration-300 group-hover:scale-105">
+                    </div>
+                  </div>
+
+                  <div class="space-y-3 w-full text-center sm:text-left">
+                    <div class="flex items-center justify-between gap-3 font-mono text-xs sm:text-sm">
+                      <span class="text-slate-500">QQ 群号：</span>
+                      <span class="text-base sm:text-lg font-bold text-cyan-700">736420091</span>
+                    </div>
+                    <div class="flex items-center justify-between gap-3 text-xs">
+                      <span class="text-slate-500">常驻地址：</span>
+                      <span class="font-bold text-cyan-800">综合实验楼B306</span>
+                    </div>
+                    <div class="flex flex-col gap-2 pt-1">
+                      <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=J8YoxvxALTeTbbihLNi61%2BHFaJHCrKbZUQbcdaTYoM1o4Dv6zCUjfeX5iEqP%2Fd0Q&busi_data=eyJncm91cENvZGUiOiI3MzY0MjAwOTEiLCJ0b2tlbiI6IndUZS84di82ZTJjZDJuUnA1WHk3Y2dxVlNsYVpyeVFZKzE4WVZUYTdaWkxTNFRNVFp0bkdRQWI3Q2RXaEtQSjkiLCJ1aW4iOiIzNDk0ODU5ODA4In0%3D&data=b7EAFG8FYv30LDjuHvJZH79OBqYsTGKDmsLTGnuOTRbbs57FCmhsbgINr4J7hbesU0gBEfJQCdw9FfzJoV9kRQ&svctype=4&tempid=h5_group_info" target="_blank" rel="noopener noreferrer" class="w-full px-4 py-2.5 sm:py-3 rounded-xl bg-cyan-600 hover:bg-cyan-700 text-white font-bold text-xs sm:text-sm shadow-md shadow-cyan-600/20 hover:shadow-cyan-600/30 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-qq text-base"></i>
+                        <span>一键加入大二招新群</span>
+                      </a>
+                      <button class="btn-copy-group w-full px-4 py-2 sm:py-2.5 rounded-xl bg-cyan-50 hover:bg-cyan-100 text-cyan-800 font-semibold text-xs border border-cyan-200 transition flex items-center justify-center gap-2" data-group-number="736420091">
+                        <i class="fa-solid fa-copy"></i>
+                        <span>复制大二群号</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="border-t border-slate-200 bg-white py-8 sm:py-12 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 text-center sm:text-left">
+      
+      <div class="flex items-center space-x-3">
+        <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg p-1 bg-slate-50 border border-slate-200 flex items-center justify-center flex-shrink-0">
+          <img src="assets/images/logo.png" alt="B306 Logo" class="w-full h-full object-contain">
+        </div>
+        <div>
+          <span class="text-xs sm:text-sm font-bold text-slate-900">电子技术创新大本营 B306 实验室</span>
+          <p class="text-[11px] text-slate-500 sm:inline sm:ml-2">南部校区综合实验楼B306 · 专注电赛控制赛题</p>
+        </div>
+      </div>
+
+      <div class="text-xs text-slate-500 text-center sm:text-right">
+        <p>© 2026 B306 Laboratory. All Rights Reserved.</p>
+        <p class="mt-0.5 font-mono text-[10px] sm:text-[11px] text-slate-500">Crafted with modern control algorithms & passion.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS & FLOATING WIDGETS
+       ========================================================================== -->
+  
+  <!-- Image Modal Viewer -->
+  <div id="image-modal" class="modal fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4">
+    <div class="modal-backdrop fixed inset-0 bg-slate-900/60 backdrop-blur-md"></div>
+    <div class="modal-content relative z-10 max-w-3xl w-full bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-2xl">
+      <div class="flex items-center justify-between px-4 sm:px-5 py-3 border-b border-slate-200 bg-slate-50">
+        <span id="modal-caption" class="text-xs sm:text-sm font-semibold text-slate-800 truncate pr-2">图片预览</span>
+        <button id="modal-close" aria-label="关闭预览" class="text-slate-500 hover:text-slate-800 p-1.5 rounded-lg hover:bg-slate-200 transition flex-shrink-0">
+          <i class="fa-solid fa-xmark text-base sm:text-lg"></i>
+        </button>
+      </div>
+      <div class="p-3 sm:p-4 flex items-center justify-center bg-slate-100 max-h-[75vh] overflow-auto">
+        <img id="modal-image" src="" alt="Modal Preview" class="max-h-[70vh] w-auto max-w-full object-contain rounded-lg shadow-sm">
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl bg-slate-900/90 backdrop-blur-md text-white text-xs sm:text-sm font-medium shadow-2xl border border-slate-700/50 flex items-center space-x-2 pointer-events-none transition-all duration-300 opacity-0 translate-y-4">
+    <i id="toast-icon" class="fa-solid fa-circle-check text-cyan-400"></i>
+    <span id="toast-message">操作成功</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-40 w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-white hover:bg-slate-50 text-cyan-600 border border-slate-200 shadow-lg backdrop-blur-md flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:border-cyan-400 focus:outline-none" title="回到顶部" aria-label="回到顶部">
+    <i class="fa-solid fa-arrow-up text-xs sm:text-sm"></i>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
